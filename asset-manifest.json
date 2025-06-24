@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hana-To-Do/static/css/main.38d661c0.css",
+    "main.js": "/Hana-To-Do/static/js/main.335ee4a7.js",
+    "static/js/453.d71e0602.chunk.js": "/Hana-To-Do/static/js/453.d71e0602.chunk.js",
+    "index.html": "/Hana-To-Do/index.html",
+    "main.38d661c0.css.map": "/Hana-To-Do/static/css/main.38d661c0.css.map",
+    "main.335ee4a7.js.map": "/Hana-To-Do/static/js/main.335ee4a7.js.map",
+    "453.d71e0602.chunk.js.map": "/Hana-To-Do/static/js/453.d71e0602.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38d661c0.css",
+    "static/js/main.335ee4a7.js"
+  ]
+}
