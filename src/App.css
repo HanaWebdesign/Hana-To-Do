@@ -1,0 +1,87 @@
+body {
+  font-family: 'Zen Maru Gothic', 'Yu Gothic UI', sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #f0f8ff);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffffdd;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 20px rgba(230, 180, 250, 0.3);
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #ff69b4;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #ffc0cb88;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: #c471b5;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.selected-date {
+  margin: 1rem 0;
+  color: #888;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.todo-index {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: #d48ac1;
+}
+
+.todo-input {
+  width: 200px;
+  padding: 0.5rem;
+  border: 1px solid #eecffc;
+  border-radius: 8px;
+  background-color: #fdf5ff;
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+.status-button {
+  padding: 0.3rem 0.7rem;
+  margin-left: 0.2rem;
+  font-size: 1.2rem;
+  background-color: #ffe4f2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.status-button:hover {
+  background-color: #f9c6e9;
+  transform: scale(1.05);
+}
+
+.status-mark {
+  margin-left: 0.8rem;
+  font-size: 1.3rem;
+  color: #db7093;
+}
+
+.react-calendar {
+  margin: 0 auto;
+  display: block;
+}
